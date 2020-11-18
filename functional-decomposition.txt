@@ -1,0 +1,99 @@
+# Functional Decomposition
+
+
+# Vending machine (1)
+
+## The vending machine gives a bag of chips (machine perspective)
+
+- Display items, numbers, and prices
+    - Give light
+- Wait for a command
+    - Have working buttons
+- Recieve the money
+    - Use light sensors to identify coins
+    - Calculate the total recieved
+- Process which slot to open and push the bag of chips out
+- Refund the rest of the money if refund button is pushed
+
+## Identify basic programming concepts from breakdown above
+
+- Basic commands: - Recieve the money
+- Nested structure: - Recieve the money
+                        - Use light sensors to identify coins
+                        - Calculate the total recieved
+- Conditional branching: Refund the rest of the money "if" refund button is pushed
+
+
+# The cookie is too big for the glass (2)
+
+## How do you fix this problem?
+
+    - Take the cookie out of the glass
+    - Break off a piece so that it fits better
+        - Hold on to two different sides and bend until the cookie breaks
+    - Successfully dip it back into the cup
+    
+## How can you prevent this problem?
+
+    - Get a larger cup, or, get a smaller cookie
+    
+## How can this problem be solved with an app?
+
+    - Create an app that can keep track of your cup and cookie sizes
+        - It must have a database of default cookie diameters (ie. Oreos and Chips Ahoy)
+        - Or, a numerical input that the user can type in after measuring their own cookie
+    - Input your cup measurments 
+        - Measure out all the diameters of your own cups
+        - Label each cup (or type of cup) and associate it with the witdh
+    - Have the app recieve cookie size and show you which cups it will fit in
+   
+
+# The spoon dropped into the gravy (3)
+
+## How do you fix this problem?
+
+    - Grab a pair of chopsticks
+        - Find one in your kitchen, or, go out and buy one
+    - Use said pair of chopsticks to pinch the spoon handle
+    - Lift spoon out of gravy
+    - Wipe or rinse off the spoon
+        - Hold it under running water
+        - Use a tissue to wipe
+        
+## How can you prevent this problem?
+
+    - Use a soup spoon with the hooked handle
+    - very carefully balance the spoon (works better flipped over, concave side down)
+    - If all else fails, simply keep spoon out of gravy
+    
+## How can this problem be solved with a robotic system?
+
+    - Create an arm robot
+        - It must have carrying capabilities
+    - Place robot on your table
+    - Give the spoon to robot each time after use
+        - The robot holds the spoon for you
+    
+
+# People hogging seats with bags (4)
+
+## How do you fix this problem?
+
+    - Fake a leg injury and stand in full view of the bag owner
+    - "If" they do not notice you, ask politely for them to move their bags
+        - Starting with "excuse me, would you mind moving your bag"
+        
+## How do you prevent this problem?
+
+    - Establish a law in which taking up seat spaces with your luggage is illegal
+        - Get a position in Parliment
+        - Convince everybody to pass this new law
+    - Now, you may fine people who hog seats, and so, within years this will cease to exist prominently
+    
+## How can this problem be solved with a technological solution?
+
+    - Make seats that are able to detect whether or not a person is there
+        - Put in heat detectors
+    - Make the seat bottom retractable
+        - If there is no person sitting there, the seat will retract and just consist of the backboard
+        - If a person approaches close enough, the seat will remain in place
